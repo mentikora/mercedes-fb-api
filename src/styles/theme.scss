@@ -1,0 +1,12 @@
+body{
+  background: $white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#wrapper{
+  width: $app_width;
+  margin: 0 auto;
+}

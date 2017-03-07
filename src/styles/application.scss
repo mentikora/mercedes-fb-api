@@ -1,1 +1,6 @@
-@include "variables.scss";
+@import "normalize.scss";
+
+@import "variables.scss";
+@import "theme.scss";
+
+@import "banners.scss";
