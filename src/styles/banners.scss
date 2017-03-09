@@ -18,29 +18,43 @@
  *
  */
 .banner{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-
-  padding-left: 15px; 
-  text-decoration: none;
-
   background: {
     repeat: no-repeat;
     position: 0 0;
     size: cover;
   }
+
+  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    padding-left: 15px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    text-decoration: none;
+
+    &:hover{
+      background: rgba($black, .3);
+    }
+  }
   
   /* banner full width */
   &.banner_full{
-    justify-content: space-between;
+    
     height: 275px;
     margin-bottom: $space;
 
     background:{
-      image: url(https://www.ktr.com/fileadmin/ktr/media/ktr-extension/family/810x275_04_Produktfamilie_RIGIFLEX.jpg);
+      image: url('/images/banner_full.jpg');
     } 
+    a{
+      justify-content: space-between;  
+    }
 
     p{
 
@@ -55,10 +69,6 @@
     width: 268px;
     height: 132px;
 
-    background: {
-      image: url(https://www.brightoncaravanpark.com.au/wp-content/uploads/2015/07/1-268x132.jpg);
-    }
-
     p{
       margin-bottom: 15px;
     }
@@ -68,6 +78,22 @@
 
     &:nth-child(2){
       margin: 0 $space;
+    }
+
+    &.banner_small_1{
+      background:{
+        image: url('/images/banner_small_1.jpg');
+      } 
+    }
+    &.banner_small_2{
+      background:{
+        image: url('/images/banner_small_2.jpg');
+      } 
+    }
+    &.banner_small_3{
+      background:{
+        image: url('/images/banner_small_3.jpg');
+      } 
     }
   }
 }
