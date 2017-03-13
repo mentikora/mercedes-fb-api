@@ -58,8 +58,21 @@
     }
 
     p{
+      margin-top: 45px;
       font-size: 40px;
       line-height: 40px;
+      position: relative;
+      &:before{
+        content: '';
+        display: block;
+        width: 60px;
+        height: 2px;
+        background: $white;
+        position: absolute;
+        z-index: 2;
+        top: -15px;
+        left: 0;
+      }
     }
     span{
       display: block;

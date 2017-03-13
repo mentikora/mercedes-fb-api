@@ -40,11 +40,36 @@ body{
   margin: 0 auto;
 }
 
+/* clearfix */
+.__clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.__clearfix { display: inline-block; }
+* html .__clearfix { height: 1%; }
+.__clearfix { display: block; }
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
 /* 
  * Title
  */
 .maintitle{
-  margin: 30px 0 15px;
   line-height: 25px;
   font: {
     family: $font_d;
@@ -53,10 +78,38 @@ body{
   color: $semiblack;
 }
 
-
 /* 
- * Mainpage
+ * Search 
+ * input + button
  */
-.mainpage_middle{
-  
+._search{
+  @extend .__clearfix;
+
+  input[type="text"]{
+    outline: 0;
+    border: 0;
+    
+    width: 292px;
+    float: left;
+    padding-left: 15px;
+    height: 35px;
+    line-height: 35px;
+    
+    font: {
+      size: 14px;
+      family: $font_d;
+    }
+    color: $lightgrey;
+    background: #eeeeee;
+    box-shadow: inset 1px 1px 1px 0 #bebebe; 
+  }
+
+  input[type="submit"]{
+    float: left;
+
+    /* background-image: url('/images/loupe.svg'); */
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
 }
+

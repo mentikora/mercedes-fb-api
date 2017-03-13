@@ -40,49 +40,131 @@
     </section>
 
     <section class="mainpage_middle">
-      <div>
+      <!-- 
+        Left side 
+        =========
+        get_theme + discussion_wrapper
+      -->
+      <aside class="left">
         <div class="get_theme">
           <div class="maintitle">Оберіть тему</div>
-          <p>Перегляньте дискусію або почніть свою обравши тему з випадаючого списку</p>
+          <p>Перегляньте дискусію або почніть свою обравши тему <br> з випадаючого списку</p>
           <select name="" id="">
             <option value="">theme 1</option>
           </select>
         </div>
         <div class="discussion_searh">
           <div class="maintitle">Пошук по дискусіям</div>
-          <p>Пошук актуальних дискусій за ключовими словами</p>
-          <form action="">
-            <input type="text">
-            <input type="submit">
+          <p>Пошук актуальних дискусій за ключовими <br> словами</p>
+          <form class="_search">
+            <input type="text" placeholder="Введіть ключове слово">
+            <input type="submit" value="" class="btn lg">
           </form>
         </div>
-      </div>
-      <div>
+      </aside>
+
+      <!-- 
+        Right side
+        ==========
+        faq_preview
+      -->
+      <aside class="right">
         <div class="faq_preview">
           <div class="maintitle">FAQ</div>
           <p>Топ 10 запитань та відповідей</p>
           <ul class="faq_list">
-            <li><a href="javascript:void(0);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nemo laboriosam accusamus suscipit culpa nam dignissimos dicta odio ullam corporis, velit dolor itaque excepturi nisi tempora vitae maiores veritatis ab?</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
-            <li><a href="javascript:void(0);">faq</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum dolor sit amet?</a></li>
+            <li><a href="javascript:void(0);">Сonsectetur adipiscing elit?</a></li>
+            <li><a href="javascript:void(0);">Aenean viverra maximus neque quis sollicitudin?</a></li>
+            <li><a href="javascript:void(0);">Quisque porta urna id magna?</a></li>
+            <li><a href="javascript:void(0);">Ultricies dapibus. Proin a lectus urna?</a></li>
+            <li><a href="javascript:void(0);">Donec dignissim urna quis felis?</a></li>
+            <li><a href="javascript:void(0);">Elementum congue?</a></li>
+            <li><a href="javascript:void(0);">Nullam facilisis metus vel bibendum vestibulum?</a></li>
+            <li><a href="javascript:void(0);">Aenean sed ante at dui hendrerit facilisis?</a></li>
+            <li><a href="javascript:void(0);">Sed vestibulum, nisl dictum?</a></li>
           </ul>
+          <a href="javascript:void(0);" class="btn lg">Переглянути усі</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="discussion_wrapper">
+
+      <!-- header-->
+      <div class="row">
+        <div class="maintitle left">Поточні дискусії</div>
+        <div class="discussion_counter left">344 дискусії</div>
+        <a href="javascript: void(0);" class="btn lg right">Перейти до моїх дискусій</a>
+      </div>
+
+      <!-- comments - body - wrapper -->
+      <div class="discussion_comments_wrapper">
+        <div class="nano">
+          <div class="nano-content">
+
+            <div class="main_comment">
+              <header>
+                <div class="left">
+                  <div class="left">
+                    <img src="http://pre12.deviantart.net/0e1f/th/pre/f/2015/002/b/a/soap_s_steam_profile_avatar_by_sirvikmarpus-d8c9e4k.png" alt="user_image" class="user_img">
+                  </div>
+                  <div class="left">
+                    <p class="name">Саша Коста</p>
+                    <span class="date">01.02.2017 о 17:34</span>
+                  </div>
+                </div>
+                <a href="javascript:void(0);" class="btn sm right">Переглянути</a>
+              </header>
+              <div class="body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra maximus neque quis sollicitudin. Quisque porta urna
+                id magna ultricies dapibus. Proin a lectus urna. Donec dignissim urna quis felis elementum congue. Nullam facilisis metus vel
+                bibendum vestibulum. Aenean sed ante at dui hendrerit facilisis.  
+              </div>
+              <div class="preview">
+                <div class="left">Тема дискусії #2</div>
+                <div class="right">7 коментарів</div>
+              </div>
+            </div>
+
+            <div class="main_comment">
+              <header>
+                <div class="left">
+                  <div class="left">
+                    <img src="http://pre12.deviantart.net/0e1f/th/pre/f/2015/002/b/a/soap_s_steam_profile_avatar_by_sirvikmarpus-d8c9e4k.png" alt="user_image" class="user_img">
+                  </div>
+                  <div class="left">
+                    <p class="name">Саша Коста</p>
+                    <span class="date">01.02.2017 о 17:34</span>
+                  </div>
+                </div>
+                <a href="javascript:void(0);" class="btn sm right">Переглянути</a>
+              </header>
+              <div class="body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra maximus neque quis sollicitudin. Quisque porta urna
+                id magna ultricies dapibus. Proin a lectus urna. Donec dignissim urna quis felis elementum congue. Nullam facilisis metus vel
+                bibendum vestibulum. Aenean sed ante at dui hendrerit facilisis.  
+              </div>
+              <div class="preview">
+                <div class="left">Тема дискусії #2</div>
+                <div class="right">7 коментарів</div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="discussion_wrapper">
-      <div class="maintitle">Поточні дискусії</div>
-      discussion wrapper
-    </section>
-
   </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/scripts/nanoScroller.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.nano').nanoScroller();
+    });
+  </script>
 
 </body>
 </html>
