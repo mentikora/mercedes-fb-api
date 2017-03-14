@@ -49,8 +49,18 @@
         <div class="get_theme">
           <div class="maintitle">Оберіть тему</div>
           <p>Перегляньте дискусію або почніть свою обравши тему <br> з випадаючого списку</p>
-          <select name="" id="">
-            <option value="">theme 1</option>
+
+          <select name="" id="" class="discussion-select">
+            <option value="theme_1">Theme #1</option>
+            <option value="theme_2">Theme #2</option>
+            <option value="theme_3">Theme #3</option>
+            <option value="theme_4">Theme #4</option>
+            <option value="theme_5">Theme #5</option>
+            <option value="theme_6">Theme #6</option>
+            <option value="theme_7">Theme #7</option>
+            <option value="theme_8">Theme #8</option>
+            <option value="theme_9">Theme #9</option>
+            <option value="theme_10">Theme #10</option>
           </select>
         </div>
         <div class="discussion_searh">
@@ -157,12 +167,20 @@
     </section>
 
   </div>
-  
+
+  <!-- cdnjs jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- cdnjs select2 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
   <script src="/scripts/nanoScroller.js"></script>
   <script>
     $(document).ready(function(){
       $('.nano').nanoScroller();
+      $('.discussion-select').select2({
+        theme: "custom",
+        minimumResultsForSearch: Infinity
+      });
     });
   </script>
 
