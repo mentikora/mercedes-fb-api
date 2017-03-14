@@ -80,3 +80,23 @@
 		}
 	}
 }
+
+/* 
+ * Discussion Page
+ * ===============
+ */
+.discussion_page{
+	padding: 40px 30px;
+	border-bottom: 3px solid $black;
+
+	@extend .__clearfix;
+	
+	.maintitle{
+		position: relative;
+		left: 0;
+		top: -10px;
+	}
+	p{
+		@extend ._text;
+	}
+}

@@ -1,3 +1,9 @@
+._text{
+	font-size: 12px;
+	line-height: 14px;
+	color: $semiblack;
+}
+
 .mainpage_middle{
 	@extend .__clearfix;
 
@@ -10,9 +16,7 @@
 	p{
 		margin-bottom: 25px;
 
-		font-size: 12px;
-		line-height: 14px;
-		color: $semiblack;
+		@extend ._text;
 	}
 	
 	.left,
