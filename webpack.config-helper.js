@@ -26,7 +26,10 @@ module.exports = (options) => {
         }
       }),
       new HtmlWebpackPlugin({
-        template: './src/index.html'
+        template: './dist/index.html'
+      }),
+      new HtmlWebpackPlugin({
+        template: './dist/mydiscussion.html'
       })
     ],
     module: {

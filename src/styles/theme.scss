@@ -113,3 +113,21 @@ body{
   }
 }
 
+._choosen{
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  color: $semiblack;
+
+  .close{
+    text-decoration: none;
+    color: $semiblack;
+    img{
+      margin-left: 8px;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+    }
+  }
+}
+
