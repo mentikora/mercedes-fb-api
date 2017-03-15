@@ -30,6 +30,9 @@ module.exports = (options) => {
       }),
       new HtmlWebpackPlugin({
         template: './dist/mydiscussion.html'
+      }),
+      new HtmlWebpackPlugin({
+        template: './dist/mydiscussion_create.html'
       })
     ],
     module: {

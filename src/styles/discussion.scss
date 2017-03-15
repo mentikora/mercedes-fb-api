@@ -130,3 +130,33 @@
 		@extend ._text;
 	}
 }
+
+/* 
+ * Discussion start
+ * ================
+ */
+.discussion_create_wrapper{
+	margin-left: 15px;
+	margin-right: 15px;
+
+	header{
+		padding: 0;
+	}
+
+	.comment_form_wrapper{
+		float: left;
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	.comment_form textarea{
+		width: calc(100% - 20px);
+		margin: 10px;
+
+		border-bottom: 1px solid #bebebe;
+	}
+}
+.discussion_create_text{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Mercedes-facebook-application</title>
+
+  <script type="text/javascript" src="bundle.js"></script>
+</head>
+<body>
+
+	<div id="wrapper">
+	  <!-- mydiscussion.html -->
+	  <section class="banners_wrapper">
+	    <div class="row">
+	      <div class="banner banner_full">
+	        <a href="javascript:void(0);" alt="" title="">
+	          <p class="maintitle">Назва банеру</p>
+	          <span>Інформація про мету та <br> використання цього додатку</span>
+	        </a>
+	      </div>
+	    </div>
+	    <div class="row banner_small_wrapper">
+	      <div class="banner banner_small banner_small_1">
+	        <a href="javascript:void(0);">
+	          <p class="maintitle">Поточні дискусії</p>
+	          <span>Переглянути поточні дискусії</span>
+	        </a>
+	      </div>
+	      <div class="banner banner_small banner_small_2">
+	        <a href="javascript:void(0);">
+	          <p class="maintitle">Мої дискусії</p>
+	          <span>Переглянути створені мною дискусії</span>
+	        </a>
+	      </div>
+	      <div class="banner banner_small banner_small_3">
+	        <a href="javascript:void(0);">
+	          <p class="maintitle">Почати дискусію</p>
+	          <span>Створити дискусію в обраній темі</span>
+	        </a>
+	      </div>
+	    </div>
+	  </section>
+
+		<!--  -->
+		<div class="discussion_page">
+  		<div class="discussion_searh">
+  			<div class="left">
+	        <div class="maintitle">Пошук по дискусіям</div>
+	        <p>Пошук актуальних дискусій за ключовими словами</p>
+        </div>
+        <div class="right">
+	        <form class="_search">
+	          <input type="text" placeholder="Введіть ключове слово">
+	          <input type="submit" value="" class="btn lg">
+	        </form>
+        </div>
+      </div>
+    </div>
+
+	  <section class="discussion_wrapper">
+
+	    <!-- header-->
+	    <div class="row">
+	      <div class="maintitle">Почати дискусію</div>
+	      <p class="_text discussion_create_text">
+	      	Вибір теми є обов’язковим. Усі створені Вами дискусії за замовчуванням мають статус "приватні".
+	      </p>
+	    </div>
+
+	    <!-- comments - body - wrapper -->
+	    <div class="discussion_comments_wrapper discussion_create_wrapper">
+						
+				<form class="comment_form">
+					<header>
+						<div class="left">
+							<select name="" id="" class="discussion-select">
+							  <option value="theme_1">Тема дискусії</option>
+							  <option value="theme_2">Theme #2</option>
+							  <option value="theme_3">Theme #3</option>
+							  <option value="theme_4">Theme #4</option>
+							  <option value="theme_5">Theme #5</option>
+							  <option value="theme_6">Theme #6</option>
+							  <option value="theme_7">Theme #7</option>
+							  <option value="theme_8">Theme #8</option>
+							  <option value="theme_9">Theme #9</option>
+							  <option value="theme_10">Theme #10</option>
+							</select>
+						</div>
+						<div class="right">
+							<input type="submit" value="Опублікувати" class="btn lg">
+						</div>
+					</header>
+					<div class="comment_form_wrapper">
+  					<div class="__clearfix">
+  	  				<textarea name="" id="" cols="10" rows="10"></textarea>
+  					</div>
+
+  					<!-- upload image -->
+  					<div id="uploader-wrapper">
+  	  				<div class="qq-uploader-selector qq-uploader">
+
+  	  					<ul aria-relevant="additions removals" aria-live="polite" class="qq-upload-list-selector qq-upload-list">
+  	  						<li class="qq-file-id-0" qq-file-id="0">
+  	  							<img qq-server-scale="" qq-max-size="90" class="qq-thumbnail-selector gag" src="http://pre12.deviantart.net/0e1f/th/pre/f/2015/002/b/a/soap_s_steam_profile_avatar_by_sirvikmarpus-d8c9e4k.png">
+  	  							<div class="qq-btn qq-upload-cancel-selector qq-upload-cancel">
+  	  								<img src="/images/cross.svg" alt="" class="delete">
+  	  							</div>
+  	  						</li>
+  	  					</ul>
+
+  	  					<div class="qq-upload-button-selector qq-upload-button qq-upload-button-hover" style="position: relative; overflow: hidden; direction: ltr;">
+  	  						<div class="upload_button_fake">
+  	  							<img class="gag" src="/images/image-add-button.svg">
+  	  						</div>
+  								<input type="file" qq-button-id="9338b9c6-750d-464c-baf4-3ce1e6c30d80" title="file input" multiple="" name="qqfile" style="position: absolute; right: 0px; top: 0px; font-family: Arial; font-size: 118px; margin: 0px; padding: 0px; cursor: pointer; opacity: 0; height: 100%;">
+  							</div>
+  	  					<div qq-hide-dropzone="" class="qq-upload-drop-area-selector qq-upload-drop-area" style="display: none;">
+  	  						<span class="qq-upload-drop-area-text-selector"></span>
+  	  					</div>
+  	  				</div>
+  					</div>
+  				</div>
+				</form>
+
+      </div>
+	  </section>
+
+	</div>
+
+	<!-- cdnjs jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- cdnjs select2 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+  <script src="/scripts/nanoScroller.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.nano').nanoScroller();
+      $('.discussion-select').select2({
+        theme: "custom",
+        minimumResultsForSearch: Infinity
+      });
+    });
+  </script>
+
+</body>
+</html>
