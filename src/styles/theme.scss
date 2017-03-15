@@ -66,6 +66,10 @@ body{
   float: right;
 }
 
+._box-shadow{
+  box-shadow: inset 1px 1px 1px 0 #bebebe; 
+}
+
 /* 
  * Title
  */
@@ -101,7 +105,8 @@ body{
     }
     color: $lightgrey;
     background: #eeeeee;
-    box-shadow: inset 1px 1px 1px 0 #bebebe; 
+    
+    @extend ._box-shadow;
   }
 
   input[type="submit"]{

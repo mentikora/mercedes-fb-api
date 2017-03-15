@@ -1,0 +1,44 @@
+.comment_form_wrapper{
+	background: #eeeeee;
+	flex-grow: 1;
+
+	@extend ._box-shadow;
+}
+.comment_form{
+	width: 100%;
+	
+
+	> .__clearfix{
+		border-bottom: 1px solid #bebebe;
+		margin: 10px;
+		padding-bottom: 10px;
+	}
+
+	textarea{
+		float: left;
+		width: 90%;
+		/* margin: 8px; */
+		outline: 0;
+		border: 0;
+
+		background: inherit;
+		font:{
+			size: 14px;
+			family: $font_r;
+		}
+		color: $semiblack;
+		resize: vertical;
+
+		height: 50px;	
+	}
+
+	input[type="submit"]{
+		float: right;
+		width: 10%;
+
+		background-color: inherit;
+		outline: 0;
+		border: 0;
+		cursor: pointer;
+	}
+}
