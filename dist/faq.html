@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Mercedes-facebook-application</title>
+
+  <script type="text/javascript" src="bundle.js"></script>
+</head>
+<body>
+
+	<div id="wrapper">
+	  <!-- mydiscussion.html -->
+	  <section class="banners_wrapper">
+	    <div class="row">
+	      <div class="banner banner_full">
+	        <a href="javascript:void(0);" alt="" title="">
+	          <p class="maintitle">Назва банеру</p>
+	          <span>Інформація про мету та <br> використання цього додатку</span>
+	        </a>
+	      </div>
+	    </div>
+	    <div class="row banner_small_wrapper">
+	      <div class="banner banner_small banner_small_1">
+	        <a href="javascript:void(0);">
+	          <p class="maintitle">Поточні дискусії</p>
+	          <span>Переглянути поточні дискусії</span>
+	        </a>
+	      </div>
+	      <div class="banner banner_small banner_small_2">
+	        <a href="javascript:void(0);">
+	          <p class="maintitle">Мої дискусії</p>
+	          <span>Переглянути створені мною дискусії</span>
+	        </a>
+	      </div>
+	      <div class="banner banner_small banner_small_3">
+	        <a href="javascript:void(0);">
+	          <p class="maintitle">Почати дискусію</p>
+	          <span>Створити дискусію в обраній темі</span>
+	        </a>
+	      </div>
+	    </div>
+	  </section>
+
+		<!--  -->
+		<div class="faq_page">
+  		<div class="maintitle">FAQ</div>
+      <p class="_text">Найпоширеніші питання та відповіді</p>
+      <select name="" id="" class="discussion-select">
+        <option value="theme_1">Theme #1</option>
+        <option value="theme_2">Theme #2</option>
+        <option value="theme_3">Theme #3</option>
+        <option value="theme_4">Theme #4</option>
+        <option value="theme_5">Theme #5</option>
+        <option value="theme_6">Theme #6</option>
+        <option value="theme_7">Theme #7</option>
+        <option value="theme_8">Theme #8</option>
+        <option value="theme_9">Theme #9</option>
+        <option value="theme_10">Theme #10</option>
+      </select>
+      <ul class="faq_list">
+      	<li><a href="javascript:void(0);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa natus non voluptate odit incidunt aliquam nobis distinctio quasi dicta consectetur odio maiores debitis, consequuntur exercitationem officiis suscipit, praesentium illum sunt!</a></li>
+        <li><a href="javascript:void(0);">Lorem ipsum dolor sit amet?</a></li>
+        <li><a href="javascript:void(0);">Сonsectetur adipiscing elit?</a></li>
+        <li><a href="javascript:void(0);">Aenean viverra maximus neque quis sollicitudin?</a></li>
+        <li><a href="javascript:void(0);">Quisque porta urna id magna?</a></li>
+        <li><a href="javascript:void(0);">Ultricies dapibus. Proin a lectus urna?</a></li>
+        <li><a href="javascript:void(0);">Donec dignissim urna quis felis?</a></li>
+        <li><a href="javascript:void(0);">Elementum congue?</a></li>
+        <li><a href="javascript:void(0);">Nullam facilisis metus vel bibendum vestibulum?</a></li>
+        <li><a href="javascript:void(0);">Aenean sed ante at dui hendrerit facilisis?</a></li>
+        <li><a href="javascript:void(0);">Sed vestibulum, nisl dictum?</a></li>
+      </ul>
+      <div class="pagination">
+      	<ul>
+      		<li><a href="javascript:void(0);" class="first disabled">1</a></li>
+      		<li><a href="javascript:void(0);" class="prev">2</a></li>
+      		<li><a href="javascript:void(0);" class="current">3</a></li>
+      		<li><a href="javascript:void(0);" class="next">4</a></li>
+      		<li><a href="javascript:void(0);" class="last">5</a></li>
+      	</ul>
+      </div>
+    </div>
+
+	</div>
+
+	<!-- cdnjs jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- cdnjs select2 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.discussion-select').select2({
+        theme: "custom",
+        minimumResultsForSearch: Infinity
+      });
+    });
+  </script>
+
+</body>
+</html>
