@@ -30,4 +30,21 @@
 	&:hover{
 		color: $blue;
 	}
+
+	&.search{
+		background:{
+			image: url('/images/search.png');
+			position: 50%;
+			repeat: no-repeat;
+		}
+	}
+	&.back{
+		img{
+			position: relative;
+			top: 2px;
+			display: inline-block;
+			width: 14px;
+			margin-right: 8px;
+		}
+	}
 }
