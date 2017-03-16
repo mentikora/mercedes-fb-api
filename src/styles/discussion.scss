@@ -29,6 +29,10 @@
 		margin: 0 0 15px 0;
 
 		background: #eeeeee;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
 	}
 
 	header,

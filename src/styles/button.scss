@@ -47,4 +47,13 @@
 			margin-right: 8px;
 		}
 	}
+
+	.icon-arrow-down{
+		display: inline-block;
+		transform: rotate(-90deg);
+		font-size: 10px;
+		position: relative;
+		top: -1px;
+		margin-right: 8px;
+	}
 }
