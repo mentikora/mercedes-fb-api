@@ -60,4 +60,18 @@
 			}
 		}
 	}
+
+	/* icon stupid things positioning */
+	[class^="icon-"], [class*=" icon-"]{
+		font-size: 10px;
+	}
+	.first.icon-double-to-right{
+		transform: rotate(180deg);
+	}
+	.prev.icon-arrow-down{
+		transform: rotate(90deg);
+	}
+	.next.icon-arrow-down{
+		transform: rotate(-90deg);
+	}
 }

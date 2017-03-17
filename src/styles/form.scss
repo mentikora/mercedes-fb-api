@@ -34,9 +34,14 @@
 
 	.form_submit_bg{
 		float: right;
-		width: 10%;
+		width: 15px;
 
-		background-color: inherit;
+		background:{
+			image: url('/images/submit_bg.png');
+			repeat: no-repeat;
+			position: right 50%;
+			color: inherit;
+		}
 		outline: 0;
 		border: 0;
 		cursor: pointer;
