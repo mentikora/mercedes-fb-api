@@ -2,6 +2,35 @@
 	$height: 60px;
 
 	padding: 0 10px 10px;
+	
+	/* hard reset*/
+	.qq-uploader{
+		min-height: auto;
+		max-height: inherit;
+		border: 0;
+		background-color: inherit;
+		padding: 0;
+		border-radius: 0;
+	}
+	.qq-upload-list li{
+		padding: 0;
+		background-color: inherit;
+	}
+	.qq-thumbnail-selector{
+		margin-right: 0;
+	}
+
+	.qq-upload-button{
+		width: $height;
+		height: $height;
+		border: 1px dashed #9a9a9a;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url('/images/image-add-button.svg') no-repeat 50%;
+		background-size: 50%;
+		text-indent: -9999px;
+	}
 
 	ul{
 		list-style-type: none;
@@ -15,25 +44,17 @@
 		}
 	}
 
-	.upload_button_fake{
-		width: $height;
-		height: $height;
-		border: 1px dashed #9a9a9a;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		img{
-			width: 25px;
-		}
-	}
 	.qq-upload-cancel{
 		float: right;
 		cursor: pointer;
-		img{
-			display: block;
-			margin-left: 5px;
-			width: 8px;
-			height: 8px;
-		}
+		display: block;
+		margin-left: 5px;
+		width: 8px;
+		height: 8px;
+		text-indent: -9999px;
+		background: url('/images/cross.svg') no-repeat 0 0;
+		background-size: cover;
+		border: 0;
+		outline: 0;
 	}
 }
