@@ -5,13 +5,13 @@
   overflow : hidden;
 
   > .nano-content{
-    position      : absolute;
-    overflow      : scroll;
-    overflow-x    : hidden;
-    top           : 0;
-    right         : -7px !important;
-    bottom        : 0;
-    left          : 0;
+    bottom: 0;    
+    left: 0;    
+    overflow-x: hidden;    
+    overflow-y: scroll;    
+    position: absolute;    
+    right: -13px !important;    
+    top: 0;
 
     &:focus{
       outline: thin dotted;
