@@ -20,7 +20,6 @@
 		background-color: inherit;
 		float:left;
 		border-bottom:none;
-		border-top: medium none;
 	}
 	.qq-thumbnail-selector{
 		margin-right: 0;
