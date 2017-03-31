@@ -52,7 +52,15 @@
     margin: 15px 0 20px;
   }
   ._choosen{
+    display: inline-block;
+    min-width: 310px;
+    height: 35px;
+    line-height: 35px;
     margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    background: #eeeeee;
   }
 
   .title{
