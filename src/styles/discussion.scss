@@ -11,7 +11,8 @@
 		line-height: 30px;
 
 		color: $lightgrey;
-		font-size: 12px;
+		/* font-size: 12px; */
+		font-size: 13px;
 	}
 }
 
@@ -65,7 +66,7 @@
 
 		top: -2px;
 		font:{
-			size: 12px;
+			size: 13px;
 			family: $font_r;
 		}
 		color: $lightgrey;
@@ -80,7 +81,8 @@
 			width: 378px;
 			padding-left: 10px;
 			
-			font-size: 12px;
+			/* font-size: 12px; */
+			font-size: 13px;
 			color: #999999;
 			background: $white;
 			&.full{
@@ -181,7 +183,8 @@
 		top: -10px;
 	}
 	p{
-		font-size: 12px;
+		/* font-size: 12px; */
+		font-size: 13px;
 		line-height: 14px;
 		color: $lightgrey;
 
@@ -192,7 +195,7 @@
 		span{
 			color: $semiblack;
 			font:{
-				size: 12px;
+				size: 13px;
 				family: $font_b;
 			}
 		}
