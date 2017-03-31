@@ -16,6 +16,21 @@
   }
 }
 
+.faq__faq-list-wrapper{
+  @extend .__clearfix;
+  .faq_list{
+    float: left;
+    width: 50%;
+    li{
+      float: none !important;
+      width: 100% !important;
+    }
+  }
+}
+
+.faq_list.second{
+    margin-top: 0px !important;
+}
 /* 
  * FAQ page
  */

@@ -1,6 +1,6 @@
 .btn{
 	@include transition(all .25s ease-in-out);
-
+        font-family: conv_r,sans-serif;
 	display: inline-block;
 	position: relative;
 	border: 0;
