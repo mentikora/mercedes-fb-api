@@ -9,7 +9,7 @@
     overflow      : scroll;
     overflow-x    : hidden;
     top           : 0;
-    right         : -13px !important;
+    right         : -7px !important;
     bottom        : 0;
     left          : 0;
 

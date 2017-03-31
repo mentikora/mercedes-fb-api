@@ -1,70 +1,75 @@
 ._text{
-	font-size: 12px;
-	line-height: 14px;
-	color: $semiblack;
+    font-size: 12px;
+    line-height: 14px;
+    color: $semiblack;
 }
 
 .mainpage_middle{
-	@extend .__clearfix;
+    @extend .__clearfix;
 
-	border-bottom: 3px solid $black;
+    border-bottom: 3px solid $black;
 
-	.maintitle{
-		margin: 30px 0 15px;
-	}
+    .maintitle{
+        margin: 30px 0 15px;
+    }
 
-	p{
-		margin-bottom: 25px;
+    p{
+        margin-bottom: 25px;
 
-		@extend ._text;
-	}
-	
-	.left,
-	.right{
-		@extend .__clearfix;
-		width: $half;
-	}
+        @extend ._text;
+    }
 
-	.left{
-		border-right: 3px solid $black;
-	}
-	
-	.get_theme,
-	.discussion_searh{
-		height: 195px;
-	}
+    .left,
+    .right{
+        @extend .__clearfix;
+        width: $half;
+    }
 
-	.get_theme,
-	.discussion_searh,
-	.faq_preview{
-		padding-left: 30px;
-	}
+    .left{
+        border-right: 3px solid $black;
+    }
 
-	/* get theme */
-	.get_theme{
-		border-bottom: 3px solid $black;
-	}
+    .get_theme,
+    .discussion_searh{
+        height: 195px;
+    }
 
-	/* discussion search */
-	.discussion_searh{
-	}
+    .get_theme,
+    .discussion_searh,
+    .faq_preview{
+        padding-left: 30px;
+    }
 
-	/* faq preview */
-	.faq_preview{
-		ul{
-			margin: 0;
-			padding: 0 0 0 15px;
-		}
-		.btn{
-			margin-top: 25px;
-		}
-	}
+    /* get theme */
+    .get_theme{
+        border-bottom: 3px solid $black;
+    }
 
-	/* discussion wrapper */
-	.discussion_wrapper{
-		.row{
-			float: left;
-			width: 100%;
-		}
-	}
+    /* discussion search */
+    .discussion_searh{
+    }
+
+    /* faq preview */
+    .faq_preview{
+        ul{
+            margin: 0;
+            padding: 0 0 0 15px;
+        }
+        .btn{
+            margin-top: 25px;
+        }
+    }
+
+    /* discussion wrapper */
+    .discussion_wrapper{
+        .row{
+            float: left;
+            width: 100%;
+        }
+    }
+}
+.discussion_wrapper{
+    ._choosen{
+        margin-left: 15px;
+    }
 }
