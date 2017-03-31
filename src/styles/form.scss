@@ -35,6 +35,10 @@
 	.form_submit_bg{
 		float: right;
 		width: 20px;
+		transition: all .25s ease-in-out;
+		outline: 0;
+		border: 0;
+		cursor: pointer;
 
 		background:{
 			image: url('/images/submit_bg.png');
@@ -42,8 +46,12 @@
 			position: 50%;
 			color: inherit;
 		}
-		outline: 0;
-		border: 0;
-		cursor: pointer;
+
+		&:hover{
+			background: {
+				image: url('/images/submit_bg-hover.png');
+			}
+		}
+		
 	}
 }

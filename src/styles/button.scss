@@ -37,6 +37,11 @@
 			position: 50%;
 			repeat: no-repeat;
 		}
+		&:hover{
+			background:{
+				image: url('/images/search-hover.png');
+			}
+		}
 	}
 	&.back{
 		i{
