@@ -26,15 +26,25 @@
     margin: 15px 0 30px;
   }
   .faq_list{
-    margin: 30px 0 0 -15px;
+    list-style-type: none;
+
+    margin: 30px 0 0 0;
     padding: 0;
     
     @extend .__clearfix;
 
     li{
       float: left;
-      margin-left: 30px;
-      width: calc(50% - 35px);
+      width: 50%;
+    }
+    span{
+      display: inline-block;
+      margin-right: 15px;
+      text-align: right;
+      width: 20px;
+      &::after{
+        content: '.';
+      }
     }
   }
   ._choosen{
