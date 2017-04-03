@@ -86,4 +86,12 @@ $height: 35px;
 			}
 		}
 	}
+	
+	/* stylize active el */ 
+	.select2-results__option--highlighted{
+		color: $blue;
+	}
+	.select2-results li:hover{
+		background: #111;
+	}
 }
