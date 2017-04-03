@@ -182,7 +182,7 @@ body{
     @include transition(color .15s ease-in-out);
 
     &:hover{
-      color: $red;
+      color: $blue;
     }
   }
 }
